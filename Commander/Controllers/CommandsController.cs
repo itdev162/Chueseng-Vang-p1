@@ -5,7 +5,7 @@ using Commander.Data;
 
 namespace Commander.Controllers
 {
-    [Route("api/commands")]
+    [Route("api/commands")]             //API Endpoint Route
     [ApiController]
     public class CommandsController : ControllerBase
     {

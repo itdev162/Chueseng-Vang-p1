@@ -1,6 +1,6 @@
 namespace Commander.Models
 {
-    public class Command{
+    public class Command{       //gets and sets for values
         public int Id { get; set; }
         public string HowTo { get; set; }
         public string Line { get; set; }
