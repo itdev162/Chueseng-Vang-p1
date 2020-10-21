@@ -7,7 +7,7 @@ namespace Commander.Data
     {
         public IEnumerable<Command> GetAppCommands()
         {
-            var commands = new List<Command>        //Command datas 
+            var commands = new List<Command>        //Data in an Array
             {
                 new Command{Id=0, HowTo="Boil an egg", Line="Boil water, place egg in water", Platform="Kettle & Pan"},
                 new Command{Id=1, HowTo="Cut Bread", Line="Get a knife", Platform="Knife and Chopping board"},
