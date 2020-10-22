@@ -28,7 +28,7 @@ namespace Commander
         {
             services.AddControllers();
 
-            services.AddScoped<ICommanderRepo, MockCommanderRepo>();
+            services.AddScoped<ICommanderRepo, MockCommanderRepo>();     //dependency injection
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
